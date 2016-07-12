@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="jntuh.net.loginscreen.monitoring"
+    android:background="#E62565">
+
+    <TextView android:text="Monitor" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:id="@+id/welcome"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambient light"
+        android:id="@+id/light"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REFRESH"
+        android:id="@+id/customizebutton"
+        android:background="#ffffff"
+        android:textColor="#E62565"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:id="@+id/textView8"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/welcome"
+        android:layout_alignLeft="@+id/light"
+        android:layout_alignStart="@+id/light"
+        android:layout_marginTop="74dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room temperature is"
+        android:id="@+id/textView9"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Energy consumption is "
+        android:id="@+id/textView12"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/textView8" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/ASUS/AndroidStudioProjects/LoginScreen/app/src/main/res/layout/activity_monitoring.xml -->

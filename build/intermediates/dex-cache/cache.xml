@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\ASUS\AndroidStudioProjects\LoginScreen\app\build\intermediates\pre-dexed\debug\ojdbc14-f50f3ad0b8135ae9945f616c8820a287f6cd9c03.jar"
+        jar="C:\Users\ASUS\AndroidStudioProjects\LoginScreen\app\libs\ojdbc14.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="fb153fc8975534e9feb781ed3becc7616705fa93"/>
+
+</pre-dex-items>
